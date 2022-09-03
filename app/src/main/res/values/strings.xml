@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Stock</string>
+    <!-- Label for Stock Item Overview -->
+    <string name="category_product_overview">Overview</string>
+    <!-- Label for Stock Item name Edit Text View-->
+    <string name="hint_item_name">Name</string>
+    <!-- Label for Stock Item brand Edit Text View-->
+    <string name="hint_item_brand">Brand</string>
+    <!-- Label for Stock Item description Edit Text View-->
+    <string name="hint_item_description">Description</string>
+    <!-- Label for In-Stock Title  -->
+    <string name="stock_measurement">In Stock</string>
+    <!-- Label for Stock Item Weight Edit Text View-->
+    <string name="hint_item_quantity">Quantity</string>
+    <!-- Label for Stock Item Weight Unit Text View-->
+    <string name="unit_item_weight">kg</string>
+    <!-- Label for No Stock Items Empty Text View-->
+    <string name="no_items">Stock needs to be replenished…</string>
+    <!-- Label for Adding Stock Items String for Empty Text View-->
+    <string name="start_adding_items">Get started by adding an item</string>
+    <!-- Content Description Text for Fab action button-->
+    <string name="add">Add</string>
+
+    <!-- Title for Editor Activity when an item is being editted  -->
+    <string name="editor_activity_title_edit_stock">Edit Item</string>
+
+    <!-- Title for Editor Activity when new item is being added -->
+    <string name="editor_activity_title_add_stock">Add a new Item</string>
+
+    <!-- Label for main menu option to insert dummy stock item [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <!-- Label for main menu option to delete all stock items [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All</string>
+    <!-- Label for Editor menu option to save stock item [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+    <!-- Label for Editor menu option to delete stock item [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+    <!-- Text for Brand if there is no brand name [CHAR LIMIT=20] -->
+    <string name="unknown_brand">Unknown</string>
+    <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this stock item?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+    <string name="delete_all_dialog_msg">Delete all stock data?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Label for text if saving stock item in database is successful -->
+    <string name="insert_stock_successful">Stock item saved successfully!</string>
+
+    <!-- Label for text if saving stock item in database is successful -->
+    <string name="insert_stock_failed">Stock item saving failed!</string>
+
+    <!-- Label for text if saving stock item in database is successful -->
+    <string name="update_stock_successful">Stock item updated successfully!</string>
+
+    <!-- Label for text if saving stock item in database is successful -->
+    <string name="update_stock_failed">Stock item updating failed!</string>
+
+    <!-- Label for text if deleting stock item in database is unsuccessful -->
+    <string name="delete_stock_failed">Failed to delete Stock Item!</string>
+
+    <!-- Label for text if deleting stock items in database is unsuccessful -->
+    <string name="no_data_to_delete">There is no data to delete!</string>
+
+    <!-- Label for text if deleting stock in database is successful -->
+    <string name="delete_stock_successful">Stock item deleted successfully!</string>
+
+    <!-- Label for text if deleting all stock items in database is successful -->
+    <string name="delete_stock_table_successful">All stock data deleted successfully!</string>
+
+
+</resources>
